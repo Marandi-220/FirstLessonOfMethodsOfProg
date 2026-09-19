@@ -66,6 +66,7 @@
     <Compile Include="Generation\prototype\Task.cs" />
     <Compile Include="Generation\singlton\ClassA.cs" />
     <Compile Include="Generation\singlton\ClassB.cs" />
+    <Compile Include="Generation\singlton\ILogger.cs" />
     <Compile Include="Generation\singlton\Logger.cs" />
     <Compile Include="Generation\prototype\Prototype.cs" />
     <Compile Include="Generation\singlton\Singlton.cs" />

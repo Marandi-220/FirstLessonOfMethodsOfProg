@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace patterns.Generation
 {
-    internal class Logger 
+    internal class Logger: ILogger
     {
         public static readonly Logger Instance = new Logger();
         private Logger() { }
