@@ -2,6 +2,7 @@
 using patterns.Generation.abstractFactory;
 using patterns.Generation.factoryMethod;
 using patterns.Generation.prototype;
+using patterns.Generation.Structure.adapter;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,8 @@ namespace patterns
             //Singlton.Run();
             //Prototype.Run();
             //FactoryMethod.Run();
-            AbstractFactory.Run();
+            //AbstractFactory.Run();
+            Adapter.Run();
 
         }
     }
