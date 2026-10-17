@@ -116,6 +116,10 @@
     <Compile Include="Structure\composite\Composite.cs" />
     <Compile Include="Structure\composite\File.cs" />
     <Compile Include="Structure\composite\Folder.cs" />
+    <Compile Include="Structure\decorator\Decorator.cs" />
+    <Compile Include="Structure\decorator\EncryptionNoteService.cs" />
+    <Compile Include="Structure\decorator\INoteService.cs" />
+    <Compile Include="Structure\decorator\NoteService.cs" />
     <Compile Include="Structure\lightweight\Citizenship.cs" />
     <Compile Include="Structure\lightweight\Lightweight.cs" />
     <Compile Include="Structure\lightweight\MVD.cs" />
