@@ -120,6 +120,8 @@
     <Compile Include="Structure\decorator\EncryptionNoteService.cs" />
     <Compile Include="Structure\decorator\INoteService.cs" />
     <Compile Include="Structure\decorator\NoteService.cs" />
+    <Compile Include="Structure\facade\Facade.cs" />
+    <Compile Include="Structure\facade\StreamReader.cs" />
     <Compile Include="Structure\lightweight\Citizenship.cs" />
     <Compile Include="Structure\lightweight\Lightweight.cs" />
     <Compile Include="Structure\lightweight\MVD.cs" />
@@ -131,7 +133,9 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Structure\facade\TextFile1.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets" Condition="Exists('..\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

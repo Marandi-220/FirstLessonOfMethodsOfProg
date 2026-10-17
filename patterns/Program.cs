@@ -6,6 +6,7 @@ using patterns.Generation.Structure.adapter;
 using patterns.Generation.Structure.lightweight;
 using patterns.Structure.composite;
 using patterns.Structure.decorator;
+using patterns.Structure.facade;
 using patterns.Structure.proxy;
 using System;
 using System.Collections.Generic;
@@ -29,8 +30,8 @@ namespace patterns
 
             //Composite.Run();
             //Decorator.Run();
-
-            Proxy.Run();
+            //Proxy.Run();
+            Facade.Run();
         }
     }
 }
