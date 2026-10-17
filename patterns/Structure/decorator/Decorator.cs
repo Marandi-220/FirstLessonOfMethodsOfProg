@@ -10,7 +10,17 @@ namespace patterns.Structure.decorator
     {
         public static void Run()
         {
+            EncryptionNoteService service = new EncryptionNoteService();
 
+            service.PutNote(1, " 11");
+            service.PutNote(1, "12");
+            service.PutNote(2, "2");
+
+            List<string> notes = service.GetNotes(1);
+            foreach(string note in notes)
+            {
+                Console.WriteLine(note);
+            }
         }
     }
 }

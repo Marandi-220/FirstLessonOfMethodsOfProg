@@ -6,6 +6,7 @@ using patterns.Generation.Structure.adapter;
 using patterns.Generation.Structure.lightweight;
 using patterns.Structure.composite;
 using patterns.Structure.decorator;
+using patterns.Structure.proxy;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,12 +23,14 @@ namespace patterns
             //Prototype.Run();
             //FactoryMethod.Run();
             //AbstractFactory.Run();
+
             //Adapter.Run();
             //Lightweight.Run();
+
             //Composite.Run();
-            Decorator.Run();
+            //Decorator.Run();
 
-
+            Proxy.Run();
         }
     }
 }

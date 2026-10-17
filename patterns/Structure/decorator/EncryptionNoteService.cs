@@ -10,9 +10,9 @@ namespace patterns.Structure.decorator
 {
     public class EncryptionNoteService : INoteService
     {
-
-        public NoteService NoteService;
-        private RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(1024);
+        //НЕ РАБОТАЕТ!!!
+        public NoteService NoteService = new NoteService();
+        private RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(2048);
         
 
         public string Encrypth(string msg)
@@ -25,7 +25,8 @@ namespace patterns.Structure.decorator
         public string DeCrypth(string msg)
         {
             byte[] encryptedData = System.Text.Encoding.UTF8.GetBytes(msg);
-            byte[] decryptedBytes = rsa.Decrypt(encryptedData, false);
+            rsa.FromXmlString(rsa.ToXmlString(true));
+            byte[] decryptedBytes = rsa.Decrypt(encryptedData, true);
 
             return System.Text.Encoding.UTF8.GetString(decryptedBytes);
 

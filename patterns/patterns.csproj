@@ -123,6 +123,9 @@
     <Compile Include="Structure\lightweight\Citizenship.cs" />
     <Compile Include="Structure\lightweight\Lightweight.cs" />
     <Compile Include="Structure\lightweight\MVD.cs" />
+    <Compile Include="Structure\proxy\BDService.cs" />
+    <Compile Include="Structure\proxy\BDServiceProxy.cs" />
+    <Compile Include="Structure\proxy\Proxy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
