@@ -4,6 +4,7 @@ using patterns.Generation.factoryMethod;
 using patterns.Generation.prototype;
 using patterns.Generation.Structure.adapter;
 using patterns.Generation.Structure.lightweight;
+using patterns.Structure.composite;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,7 +22,8 @@ namespace patterns
             //FactoryMethod.Run();
             //AbstractFactory.Run();
             //Adapter.Run();
-            Lightweight.Run();
+            //Lightweight.Run();
+            Composite.Run();
 
         }
     }
